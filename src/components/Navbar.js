@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import classes from "./Navbar.module.css";
 import logo from "../assets/img/logo.png";
 const Navbar = () => {
-  const [showMenu, setShowMenu] = useState(true);
+  const [showMenu, setShowMenu] = useState(false);
 
   const showMenuHandler = () => setShowMenu((prevState) => !prevState);
   return (
