@@ -2,10 +2,11 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  background: black; /* TODO: Change bg to transparent*/
+  background: transparent; /* TODO: Change bg to transparent*/
   position: absolute;
-
-  left: 75px;
+  z-index: 10;
+  left: 150px;
+  top: 35px;
 }
 ul {
   display: flex;
@@ -26,6 +27,11 @@ ul {
   text-transform: uppercase;
   font-size: 13px;
   letter-spacing: -1px;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+  color: var(--light-grey-color-hover);
 }
 
 .hamburger {
