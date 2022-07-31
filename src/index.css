@@ -3,6 +3,15 @@
 /* font-family: 'Montserrat', sans-serif;
 font-family: 'Source Sans Pro', sans-serif;
 font-family: 'Vollkorn', serif; */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 :root {
   --dark-grey-color-title: #333333;
   --light-grey-color-hover: rgb(135, 135, 135);
@@ -14,6 +23,7 @@ font-family: 'Vollkorn', serif; */
 }
 body {
   margin: 0;
+  padding: 20px;
   font-family: "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -36,6 +46,9 @@ p {
   letter-spacing: -0.5px;
 }
 
+ul {
+  list-style: none;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
