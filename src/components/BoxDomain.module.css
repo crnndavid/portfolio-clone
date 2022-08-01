@@ -1,0 +1,5 @@
+.domain-container {
+  background-color: var(--bg-color-light-grey-box);
+  padding: 50px 30px;
+  text-align: center;
+}
