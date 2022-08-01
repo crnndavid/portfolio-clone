@@ -17,6 +17,7 @@ font-family: 'Vollkorn', serif; */
   --light-grey-color-hover: rgb(135, 135, 135);
   --text-dark-grey-color: rgb(92, 92, 92);
   --bg-color-light-grey-box: whitesmoke;
+  --btn-text-color: rgb(51, 51, 51);
   --bg-color-black-footer: rgb(36, 36, 36);
   --dark-grey-color-title-footer: rgb(125, 125, 125);
   --white-color: white;
@@ -29,12 +30,26 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-h2 {
-  color: var(--dark-grey-color-title);
-  font-family: "Montserrat", sans-serif;
-  letter-spacing: -3px;
-  font-weight: 700;
+.h2-subheader {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-family: Montserrat, sans-serif;
   font-size: 42px;
+  line-height: 40px;
+  font-weight: 700;
+  letter-spacing: -3px;
+  color: var(--dark-grey-color-title);
+}
+
+.h4-subheader {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: Vollkorn, serif;
+  color: var(--dark-grey-color-title);
+  font-size: 17px;
+  line-height: 22px;
+  font-style: italic;
+  font-weight: 400;
 }
 
 p {
