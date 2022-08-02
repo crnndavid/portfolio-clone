@@ -17,6 +17,7 @@ import box3 from "./assets/img/box-3.jpeg";
 import icon1 from "./assets/img/icon-brand.svg";
 import icon2 from "./assets/img/icon-webdesign.svg";
 import icon3 from "./assets/img/icon-graphicdesign.svg";
+import BoxReview from "./components/BoxReview";
 
 function App() {
   const hoverStyles = ["#e3e1d3", "#e0cece", "#d1d7e0"];
@@ -92,6 +93,17 @@ function App() {
             bgOnHover={hoverStyles[2]}
             title="Graphic Design"
             description="Focus infographic venture business model canvas gamification ecosystem. Business plan gamification user experience low hanging fruit twitter. Metrics research & development market paradigm shift growth hacking disruptive user experience iPad social media angel investor alpha. Social proof lean startup alpha scrum project non-disclosure agreement."
+          />
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+          <BoxReview
+            title1="Our clients"
+            title2="love our work"
+            subtitle="But don't just take our word for it..."
+            citation="“I don’t like people, but I make an exception for ABC Agency. They’re pretty damn cool.”"
+            author="Brian Jones,  America Big Corporation"
           />
         </Col>
       </Row>
