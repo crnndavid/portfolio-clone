@@ -11,6 +11,7 @@ import BoxText from "./components/BoxText";
 import BoxStats from "./components/BoxStats";
 import BoxDomain from "./components/BoxDomain";
 import BoxCreationInfo from "./components/BoxCreationInfo";
+import ContactForm from "./components/ContactForm";
 
 import box1 from "./assets/img/box-1.jpeg";
 import box2 from "./assets/img/box-2.jpeg";
@@ -172,6 +173,7 @@ function App() {
           />
         </Col>
       </Row>
+      <ContactForm />
     </div>
   );
 }
