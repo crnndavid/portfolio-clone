@@ -12,6 +12,7 @@ import BoxStats from "./components/BoxStats";
 import BoxDomain from "./components/BoxDomain";
 import BoxCreationInfo from "./components/BoxCreationInfo";
 import ContactForm from "./components/ContactForm";
+import Footer from "./components/Footer";
 
 import box1 from "./assets/img/box-1.jpeg";
 import box2 from "./assets/img/box-2.jpeg";
@@ -28,6 +29,7 @@ import project4 from "./assets/img/project-4.jpeg";
 import project5 from "./assets/img/project-5.jpeg";
 import project6 from "./assets/img/project-6.jpeg";
 import project7 from "./assets/img/project-7.jpeg";
+import logo from "./assets/img/logo.png";
 
 function App() {
   const hoverStyles = ["#e3e1d3", "#e0cece", "#d1d7e0"];
@@ -174,6 +176,7 @@ function App() {
         </Col>
       </Row>
       <ContactForm />
+      <Footer img={logo} />
     </div>
   );
 }
