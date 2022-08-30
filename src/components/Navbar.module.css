@@ -8,7 +8,7 @@
   left: 150px;
   top: 35px;
 }
-ul {
+.nav-links {
   display: flex;
   justify-content: center;
   align-items: center;

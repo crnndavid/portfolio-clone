@@ -10,7 +10,7 @@ const Navbar = () => {
       <a href="/">
         <img src={logo} alt="Logo" className={classes.logo} />
       </a>
-      <ul>
+      <ul className={classes["nav-links"]}>
         <li>
           <a href="#home" title="Home link" className={classes["nav-link"]}>
             Home
