@@ -15,7 +15,7 @@
   text-align: end;
   margin-right: 150px;
 }
-h1 {
+.caption-box h1 {
   margin-top: 20px;
   margin-bottom: 10px;
   font-family: Montserrat, sans-serif;
@@ -26,7 +26,7 @@ h1 {
   letter-spacing: -3px;
 }
 
-h4 {
+.caption-box h4 {
   margin-top: 10px;
   margin-bottom: 10px;
   font-family: Vollkorn, serif;
@@ -35,4 +35,13 @@ h4 {
   line-height: 22px;
   font-style: italic;
   font-weight: 400;
+}
+
+@media screen and (max-width: 768px) {
+  .caption-box h1 {
+    font-size: 48px;
+  }
+  .caption-box {
+    margin-right: 40px;
+  }
 }

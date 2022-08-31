@@ -1,5 +1,6 @@
 import React from "react";
 import classes from "./BoxStats.module.css";
+import Col from "react-bootstrap/Col";
 
 const BoxStats = () => {
   const stats = [
@@ -21,14 +22,14 @@ const BoxStats = () => {
     },
   ];
   return (
-    <section className={classes["stats-container"]}>
+    <>
       {stats.map((stat, index) => (
-        <div key={index}>
+        <Col xs={6} key={index} className={classes["stats-container"]}>
           <h2 className="h2-subheader">{stat.numberOf}</h2>
           <h4 className="h4-subheader">{stat.subject}</h4>
-        </div>
+        </Col>
       ))}
-    </section>
+    </>
   );
 };
 
