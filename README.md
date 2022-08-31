@@ -10,7 +10,6 @@
 - [Technologies Used](#technologies-used)
 
 - [Screenshots](#screenshots)
-- [Setup](#setup)
 
 - [Project Status](#project-status)
 
@@ -36,12 +35,6 @@
 ![Example screenshot](./src/assets/img/screenshot-1.png)
 
 <!-- If you have screenshots you'd like to share, include them here. -->
-
-## Setup
-
-What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
-
-Proceed to describe how to install / setup one's local environment / get started with the project.
 
 ## Project Status
 
