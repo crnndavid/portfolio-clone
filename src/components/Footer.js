@@ -4,10 +4,8 @@ const Footer = ({ img }) => {
   return (
     <footer>
       <div className={classes["footer-container"]}>
-        <div>
-          <img src={img} alt="" />
-        </div>
-        <div>
+        <img src={img} alt="" />
+        <div className={classes["footer-section"]}>
           <h6>MENU</h6>
           <ul>
             <li>ABOUT</li>
@@ -16,7 +14,7 @@ const Footer = ({ img }) => {
             <li>CONTACT</li>
           </ul>
         </div>
-        <div>
+        <div className={classes["footer-section"]}>
           <h6>ADDRESS</h6>
           <ul>
             <li>Suite #913</li>
@@ -26,7 +24,7 @@ const Footer = ({ img }) => {
             <li>M1 1TA</li>
           </ul>
         </div>
-        <div>
+        <div className={classes["footer-section"]}>
           <h6>CONTACT</h6>
           <ul>
             <li>E: info@youragency.com</li>

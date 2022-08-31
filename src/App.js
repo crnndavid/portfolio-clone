@@ -38,10 +38,10 @@ function App() {
       <Navbar />
       <Banner />
       <Row className="mt-4">
-        <Col>
+        <Col md={6} className="mt-4">
           <BoxImages img={box1} />
         </Col>
-        <Col>
+        <Col md={6} className="mt-4">
           <BoxText
             title_l1="Creative"
             title_l2="& fresh"
@@ -51,8 +51,8 @@ function App() {
           />
         </Col>
       </Row>
-      <Row className="mt-4">
-        <Col>
+      <Row>
+        <Col md={6} className="mt-4">
           <BoxText
             title_l1="Hip"
             title_l2="& Funky"
@@ -61,7 +61,7 @@ function App() {
             description="Focus infographic venture business model canvas gamification ecosystem. Business plan gamification user experience low hanging fruit twitter. Metrics research & development market paradigm shift growth hacking disruptive user experience iPad social media angel investor alpha. Social proof lean startup alpha scrum project non-disclosure agreement."
           />
         </Col>
-        <Col>
+        <Col md={6} className="mt-4">
           <BoxImages img={box2} />
         </Col>
       </Row>
@@ -69,10 +69,10 @@ function App() {
         <BoxStats />
       </Row>
       <Row>
-        <Col>
+        <Col md={6} className="mt-4">
           <BoxImages img={box3} />
         </Col>
-        <Col>
+        <Col md={6} className="mt-4">
           <BoxText
             title_l1="Things"
             title_l2="we do"
@@ -82,8 +82,8 @@ function App() {
           />
         </Col>
       </Row>
-      <Row className="mt-4">
-        <Col>
+      <Row>
+        <Col md={4} className="mt-4">
           <BoxDomain
             img={icon1}
             bgOnHover={hoverStyles[0]}
@@ -91,7 +91,7 @@ function App() {
             description="Focus infographic venture business model canvas gamification ecosystem. Business plan gamification user experience low hanging fruit twitter. Metrics research & development market paradigm shift growth hacking disruptive user experience iPad social media angel investor alpha. Social proof lean startup alpha scrum project non-disclosure agreement."
           />
         </Col>
-        <Col>
+        <Col md={4} className="mt-4">
           <BoxDomain
             img={icon2}
             bgOnHover={hoverStyles[1]}
@@ -99,7 +99,7 @@ function App() {
             description="Focus infographic venture business model canvas gamification ecosystem. Business plan gamification user experience low hanging fruit twitter. Metrics research & development market paradigm shift growth hacking disruptive user experience iPad social media angel investor alpha. Social proof lean startup alpha scrum project non-disclosure agreement."
           />
         </Col>
-        <Col>
+        <Col md={4} className="mt-4">
           <BoxDomain
             img={icon3}
             bgOnHover={hoverStyles[2]}
@@ -109,7 +109,7 @@ function App() {
         </Col>
       </Row>
       <Row>
-        <Col>
+        <Col className="mt-4">
           <BoxReview
             title1="Our clients"
             title2="love our work"
@@ -119,25 +119,25 @@ function App() {
           />
         </Col>
       </Row>
-      <Row md={4} className="mt-4">
-        <Col>
+      <Row md={4}>
+        <Col sm={6} className="mt-4">
           <BoxCreationInfo></BoxCreationInfo>
         </Col>
-        <Col>
+        <Col sm={6} className="mt-4">
           <BoxImageCreation
             img={project1}
             title="Porfolio title"
             domain="Branding, Webdesign"
           />
         </Col>
-        <Col>
+        <Col sm={6} className="mt-4">
           <BoxImageCreation
             img={project2}
             title="Porfolio title"
             domain="Branding, Webdesign"
           />
         </Col>
-        <Col>
+        <Col sm={6} className="mt-4">
           <BoxImageCreation
             img={project3}
             title="Porfolio title"
@@ -145,29 +145,29 @@ function App() {
           />
         </Col>
       </Row>
-      <Row md={4} className="mt-4">
-        <Col>
+      <Row md={4}>
+        <Col sm={6} className="mt-4">
           <BoxImageCreation
             img={project4}
             title="Porfolio title"
             domain="Branding, Webdesign"
           />
         </Col>
-        <Col>
+        <Col sm={6} className="mt-4">
           <BoxImageCreation
             img={project5}
             title="Porfolio title"
             domain="Branding, Webdesign"
           />
         </Col>
-        <Col>
+        <Col sm={6} className="mt-4">
           <BoxImageCreation
             img={project6}
             title="Porfolio title"
             domain="Branding, Webdesign"
           />
         </Col>
-        <Col>
+        <Col sm={6} className="mt-4">
           <BoxImageCreation
             img={project7}
             title="Porfolio title"
@@ -175,7 +175,11 @@ function App() {
           />
         </Col>
       </Row>
-      <ContactForm />
+      <Row>
+        <Col md={{ span: 6, offset: 3 }}>
+          <ContactForm />
+        </Col>
+      </Row>
       <Footer img={logo} />
     </div>
   );

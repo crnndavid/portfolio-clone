@@ -1,10 +1,10 @@
 .box-text-container {
-  height: 600px;
+  min-height: 600px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 150px 100px;
+  padding: 50px;
   text-align: center;
   background-color: var(--bg-color-light-grey-box);
 }
@@ -25,4 +25,10 @@
   background-color: var(--light-grey-color-hover);
   color: var(--white-color);
   border: 2px solid var(--light-grey-color-hover);
+}
+
+@media screen and (max-width: 768px) {
+  .box-text-container {
+    min-height: 400px;
+  }
 }

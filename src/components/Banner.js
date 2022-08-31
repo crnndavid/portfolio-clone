@@ -43,7 +43,7 @@ const Banner = () => {
                   <br />
                   {slide.caption_title_bottom}
                 </h1>
-                <h4 className="h4-subheader">{slide.caption_text}</h4>
+                <h4>{slide.caption_text}</h4>
               </div>
             </div>
           </div>
